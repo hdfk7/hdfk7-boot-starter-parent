@@ -22,7 +22,7 @@
         <spring-cloud.version>2022.0.3</spring-cloud.version>
         <spring-cloud-alibaba.version>2022.0.0.0-RC2</spring-cloud-alibaba.version>
 
-        <dubbo.version>3.1.1</dubbo.version>
+        <dubbo.version>3.2.3</dubbo.version>
 
         <redisson.version>3.20.0</redisson.version>
 
@@ -34,7 +34,7 @@
 
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
         <org.apache.velocity.version>2.3</org.apache.velocity.version>
-        <ibeetl.beetl.version>3.8.1.RELEASE</ibeetl.beetl.version>
+        <ibeetl.beetl.version>3.15.7.RELEASE</ibeetl.beetl.version>
 
         <hutool.version>5.8.20</hutool.version>
 
