@@ -29,8 +29,8 @@
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
 
-        <swagger-annotations-jakarta.version>2.2.8</swagger-annotations-jakarta.version>
-        <knife4j.version>4.1.0</knife4j.version>
+        <swagger-annotations-jakarta.version>2.2.9</swagger-annotations-jakarta.version>
+        <knife4j.version>4.2.0</knife4j.version>
 
         <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
         <org.apache.velocity.version>2.3</org.apache.velocity.version>
