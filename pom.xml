@@ -9,12 +9,32 @@
         <version>3.1.12</version>
         <relativePath/>
     </parent>
-
-    <groupId>com.hdfk7.boot</groupId>
+    <groupId>cn.hdfk7.boot</groupId>
     <artifactId>hdfk7-boot-starter-parent</artifactId>
-    <name>hdfk7-boot-starter-parent</name>
-    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <version>1.0.6-SNAPSHOT</version>
+    <name>hdfk7-boot-starter-parent</name>
+    <url>https://blog.csdn.net/qq_37157160/article/details/104988331</url>
+    <description>基于SpringBoot3搭建微服务架构下的项目框架</description>
+
+    <developers>
+        <developer>
+            <name>qiang.liang</name>
+            <email>lq173228514@gmail.com</email>
+            <url>https://docs.hdfk7.cn</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/hdfk7/hdfk7-boot-starter-parent</url>
+    </scm>
 
     <properties>
         <java.version>17</java.version>
