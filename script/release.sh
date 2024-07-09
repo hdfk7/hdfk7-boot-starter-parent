@@ -10,7 +10,7 @@ export publishing="${work}/${target}/central-publishing"
 export path="${staging}/cn/hdfk7/boot/${module}/${version}"
 export pom="${module}-${version}.pom"
 
-mvn clean package
+mvn clean install
 mkdir -p "${path}"
 mkdir -p "${publishing}"
 cp pom.xml "${path}/${pom}"
