@@ -1,7 +1,7 @@
 #!/bin/bash -ile
 
 export module=hdfk7-boot-starter-parent
-export version=1.0.11
+export version=1.0.13
 
 work=$(pwd)
 export target="target"
