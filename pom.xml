@@ -13,7 +13,7 @@
     <groupId>cn.hdfk7.boot</groupId>
     <artifactId>hdfk7-boot-starter-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.14-SNAPSHOT</version>
+    <version>1.0.15-SNAPSHOT</version>
     <name>hdfk7-boot-starter-parent</name>
     <url>https://blog.csdn.net/qq_37157160/article/details/104988331</url>
     <description>基于SpringBoot3搭建微服务架构下的项目框架</description>
@@ -60,7 +60,7 @@
 
         <hutool.version>5.8.29</hutool.version>
 
-        <skywalking.version>9.2.0</skywalking.version>
+        <skywalking.version>9.3.0</skywalking.version>
 
         <jsonwebtoken.jjwt.version>0.12.6</jsonwebtoken.jjwt.version>
 
