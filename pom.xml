@@ -6,14 +6,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.2</version>
+        <version>3.3.5</version>
         <relativePath/>
     </parent>
 
     <groupId>cn.hdfk7.boot</groupId>
     <artifactId>hdfk7-boot-starter-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.15-SNAPSHOT</version>
+    <version>1.0.16-SNAPSHOT</version>
     <name>hdfk7-boot-starter-parent</name>
     <url>https://blog.csdn.net/qq_37157160/article/details/104988331</url>
     <description>基于SpringBoot3搭建微服务架构下的项目框架</description>
@@ -40,25 +40,25 @@
     <properties>
         <java.version>17</java.version>
 
-        <spring-boot.version>3.3.2</spring-boot.version>
+        <spring-boot.version>3.3.5</spring-boot.version>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
         <spring-cloud-alibaba.version>2023.0.1.2</spring-cloud-alibaba.version>
 
-        <dubbo.version>3.2.14</dubbo.version>
+        <dubbo.version>3.3.1</dubbo.version>
 
-        <redisson.version>3.32.0</redisson.version>
+        <redisson.version>3.37.0</redisson.version>
 
-        <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <mapstruct.version>1.6.2</mapstruct.version>
         <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
 
         <swagger-annotations-jakarta.version>2.2.19</swagger-annotations-jakarta.version>
         <knife4j.version>4.5.0</knife4j.version>
 
-        <mybatis-plus.version>3.5.7</mybatis-plus.version>
-        <org.apache.velocity.version>2.3</org.apache.velocity.version>
-        <ibeetl.beetl.version>3.16.2.RELEASE</ibeetl.beetl.version>
+        <mybatis-plus.version>3.5.9</mybatis-plus.version>
+        <org.apache.velocity.version>2.4</org.apache.velocity.version>
+        <ibeetl.beetl.version>3.17.0.RELEASE</ibeetl.beetl.version>
 
-        <hutool.version>5.8.29</hutool.version>
+        <hutool.version>5.8.32</hutool.version>
 
         <skywalking.version>9.3.0</skywalking.version>
 
@@ -68,7 +68,7 @@
 
         <commons-fileupload.vetsion>1.5</commons-fileupload.vetsion>
 
-        <easyexcel.vetsion>4.0.1</easyexcel.vetsion>
+        <easyexcel.vetsion>4.0.3</easyexcel.vetsion>
     </properties>
 
     <dependencies>
@@ -241,6 +241,11 @@
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-extension</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-jsqlparser</artifactId>
                 <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
