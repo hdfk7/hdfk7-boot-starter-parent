@@ -1,5 +1,5 @@
 $module = "hdfk7-boot-starter-parent"
-$version = "1.0.16"
+$version = "1.1.0"
 
 $work = Get-Location
 $target = "target"
